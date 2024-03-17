@@ -21,6 +21,9 @@
 		59974DA62BA724B4001C9D35 /* StringManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59974DA52BA724B4001C9D35 /* StringManager.swift */; };
 		59974DAA2BA726B8001C9D35 /* ValidNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59974DA92BA726B8001C9D35 /* ValidNumberTest.swift */; };
 		59974DAC2BA72711001C9D35 /* AddTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59974DAB2BA72711001C9D35 /* AddTest.swift */; };
+		59974DAE2BA727E5001C9D35 /* CalculatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59974DAD2BA727E5001C9D35 /* CalculatorTest.swift */; };
+		59974DB02BA72827001C9D35 /* TemperatureCalculatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59974DAF2BA72827001C9D35 /* TemperatureCalculatorTest.swift */; };
+		59974DB22BA72850001C9D35 /* StringManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59974DB12BA72850001C9D35 /* StringManagerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		59974DA52BA724B4001C9D35 /* StringManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringManager.swift; sourceTree = "<group>"; };
 		59974DA92BA726B8001C9D35 /* ValidNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidNumberTest.swift; sourceTree = "<group>"; };
 		59974DAB2BA72711001C9D35 /* AddTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTest.swift; sourceTree = "<group>"; };
+		59974DAD2BA727E5001C9D35 /* CalculatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTest.swift; sourceTree = "<group>"; };
+		59974DAF2BA72827001C9D35 /* TemperatureCalculatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureCalculatorTest.swift; sourceTree = "<group>"; };
+		59974DB12BA72850001C9D35 /* StringManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringManagerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +182,9 @@
 		59974DA82BA72686001C9D35 /* xctest */ = {
 			isa = PBXGroup;
 			children = (
+				59974DAD2BA727E5001C9D35 /* CalculatorTest.swift */,
+				59974DAF2BA72827001C9D35 /* TemperatureCalculatorTest.swift */,
+				59974DB12BA72850001C9D35 /* StringManagerTest.swift */,
 			);
 			path = xctest;
 			sourceTree = "<group>";
@@ -325,6 +334,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				59974D832BA66AC7001C9D35 /* UnitTestSwiftCourseBossTests.swift in Sources */,
+				59974DAE2BA727E5001C9D35 /* CalculatorTest.swift in Sources */,
+				59974DB22BA72850001C9D35 /* StringManagerTest.swift in Sources */,
+				59974DB02BA72827001C9D35 /* TemperatureCalculatorTest.swift in Sources */,
 				59974DAC2BA72711001C9D35 /* AddTest.swift in Sources */,
 				59974DAA2BA726B8001C9D35 /* ValidNumberTest.swift in Sources */,
 			);
