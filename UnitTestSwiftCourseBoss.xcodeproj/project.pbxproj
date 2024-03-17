@@ -19,6 +19,8 @@
 		59974DA22BA72463001C9D35 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59974DA12BA72463001C9D35 /* Calculator.swift */; };
 		59974DA42BA7248B001C9D35 /* TemperatureCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59974DA32BA7248B001C9D35 /* TemperatureCalculator.swift */; };
 		59974DA62BA724B4001C9D35 /* StringManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59974DA52BA724B4001C9D35 /* StringManager.swift */; };
+		59974DAA2BA726B8001C9D35 /* ValidNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59974DA92BA726B8001C9D35 /* ValidNumberTest.swift */; };
+		59974DAC2BA72711001C9D35 /* AddTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59974DAB2BA72711001C9D35 /* AddTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		59974DA12BA72463001C9D35 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		59974DA32BA7248B001C9D35 /* TemperatureCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureCalculator.swift; sourceTree = "<group>"; };
 		59974DA52BA724B4001C9D35 /* StringManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringManager.swift; sourceTree = "<group>"; };
+		59974DA92BA726B8001C9D35 /* ValidNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidNumberTest.swift; sourceTree = "<group>"; };
+		59974DAB2BA72711001C9D35 /* AddTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 		59974D812BA66AC7001C9D35 /* UnitTestSwiftCourseBossTests */ = {
 			isa = PBXGroup;
 			children = (
+				59974DA82BA72686001C9D35 /* xctest */,
+				59974DA72BA7267A001C9D35 /* mock */,
 				59974D822BA66AC7001C9D35 /* UnitTestSwiftCourseBossTests.swift */,
 			);
 			path = UnitTestSwiftCourseBossTests;
@@ -154,6 +160,22 @@
 				59974DA12BA72463001C9D35 /* Calculator.swift */,
 				59974DA32BA7248B001C9D35 /* TemperatureCalculator.swift */,
 				59974DA52BA724B4001C9D35 /* StringManager.swift */,
+			);
+			path = xctest;
+			sourceTree = "<group>";
+		};
+		59974DA72BA7267A001C9D35 /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				59974DA92BA726B8001C9D35 /* ValidNumberTest.swift */,
+				59974DAB2BA72711001C9D35 /* AddTest.swift */,
+			);
+			path = mock;
+			sourceTree = "<group>";
+		};
+		59974DA82BA72686001C9D35 /* xctest */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = xctest;
 			sourceTree = "<group>";
@@ -303,6 +325,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				59974D832BA66AC7001C9D35 /* UnitTestSwiftCourseBossTests.swift in Sources */,
+				59974DAC2BA72711001C9D35 /* AddTest.swift in Sources */,
+				59974DAA2BA726B8001C9D35 /* ValidNumberTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
